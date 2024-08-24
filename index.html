@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Age Calculator</title>
+   <!-- Links Style -->
+   <link rel="stylesheet" href="style.css">
+   <!-- Link Font -->
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+   <div class="container">
+      <div class="alert"></div>
+      <!-- Input Data -->
+      <form class="form-container flex" id="form">
+         <div>
+            <label for="day">DAY </label>
+            <input type="text" name="day" id="day" placeholder="DD">
+         </div>
+         <div>
+            <label for="month">Month </label>
+            <input type="text" name="month" id="month" placeholder="MM">
+         </div>
+         <div>
+            <label for="year">Year </label>
+            <input type="number" name="year" id="year" placeholder="YYYY">
+         </div>
+      </form>
+
+      <!-- t data -->
+      <div class="container-ouput">
+         <div class="flex">
+            <span class="years">- -</span>
+            <h1>Years</h1>
+         </div>
+         <div class="flex">
+            <span class="months">- -</span>
+            <h1>Months</h1>
+         </div>
+         <div class="flex">
+            <span class="days">- -</span>
+            <h1>Days</h1>
+         </div>
+      </div>
+
+
+      <button id="button">Calcute</button>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+
+</html>
